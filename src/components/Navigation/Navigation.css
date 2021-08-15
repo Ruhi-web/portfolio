@@ -1,0 +1,18 @@
+:root {
+    --main-text-color: #fff;
+    --primary-blue: blue;
+    --primary-dark: rgb(255, 255, 255, 0)
+  }
+.navbar-nav > li > a{
+    color: var(--main-text-color) !important;
+    font-family: 'Roboto Condensed';
+    letter-spacing: 0.07rem;
+    border-top: 0.18rem solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+    border-top: 0.18rem solid var(--primary-blue);
+}
+.navbar-nav > li > a:hover{
+    border-top: 0.18rem solid var(--primary-blue);
+}
